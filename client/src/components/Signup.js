@@ -74,6 +74,7 @@ export const SignupForm = () => {
           value={formik.values.name}
         />
         <p style={{ color: "red" }}> {formik.errors.name}</p>
+        
 
         <label htmlFor="age">age</label>
         <br />
